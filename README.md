@@ -7,7 +7,8 @@ For the full description of the original assignment, see the assignment handout 
 Check out useful [lectures from CS336 at Stanford](https://github.com/stanford-cs336/spring2024-lectures).
 
 If you see any issues with the assignment handout or code, please feel free to
-raise a GitHub issue or open a pull request with a fix.
+raise a GitHub issue or open a pull request with a fix. Any improvements of the existing codebase
+(including adaptations from Stanford to UHM workflows, modifications of PDF, etc) will be rewarded with extra points.
 
 ## Setup
 
@@ -68,6 +69,6 @@ Follow along the [CS336@Stanford handout](./cs336_spring2024_assignment4_data.pd
 1. What the code looks like: clone https://github.com/igormolybog/s2025-assignment2-data.git
 2. How to submit: You will submit the report on the assignment to [Assignment Submission Form](https://forms.gle/CSRweWjuBxvYbb9MA). The code does not have to be attached as long as you include links to the main GitHub branch where your code lives and links to all of the Colab notebooks if applicable.
     - You don't need to submit to leaderboard.
-3. None of the data or tools are pre-downloaded or pre-installed for you. The handout describes the steps to get them (e.g. download specific WARC files or fastText library). You should follow them yourself.
+3. None of the data or tools are pre-downloaded or pre-installed for you. The handout describes the steps to get them (e.g. download specific WARC files or fastText library). You should follow the steps yourself.
 4. Problems listed in Section 4 are not required and can be skipped. However, they can be submitted for extra credit even after the deadline for Assignment 2 (and before the last day of the class) 
     - You may leverage CPUs located on Koa cluster to solve the problems listed in Section 4
