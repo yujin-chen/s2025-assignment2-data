@@ -1,7 +1,10 @@
-# CS336 Spring 2024 Assignment 4: Data
+# UHM ECE 496B Spring 2025 Assignment 2: Data
 
-For a full description of the assignment, see the assignment handout at
+This asignment is created from Assignment 4 of [CS336 at Stanford taught in Spring 2024](https://stanford-cs336.github.io/spring2024/). 
+For the full description of the original assignment, see the assignment handout at
 [cs336_spring2024_assignment4_data.pdf](./cs336_spring2024_assignment4_data.pdf)
+
+Check out useful [lectures from CS336 at Stanford](https://github.com/stanford-cs336/spring2024-lectures).
 
 If you see any issues with the assignment handout or code, please feel free to
 raise a GitHub issue or open a pull request with a fix.
@@ -30,16 +33,16 @@ Visually, it should look something like:
 │   │   └── ... other files in the cs336_basics module, taken from assignment 1 ...
 │   ├── requirements.txt
 │   └── setup.py (setup.py to install `cs336_basics`) 
-├── cs336-data # TODO(you):code that you'll write for assignment 4 
+├── cs336-data # TODO(you):code that you'll write for assignment 2
 │   ├── cs336_data # A python module named cs336_data
 │   │   ├── __init__.py
 │   │   ├── VERSION
-│   │   └── ... TODO(you): other python files that you need for assignment 4 ...
+│   │   └── ... TODO(you): other python files that you need for assignment 2 ...
 │   ├── requirements.txt
-│   ├── ... TODO(you): any other files or folders you need for assignment 4 ...
+│   ├── ... TODO(you): any other files or folders you need for assignment 2 ...
 │   └── setup.py (setup.py to install `cs336_data`)
 ├── README.md
-└── ... TODO(you): other files or folders you need for assignment 4 ...
+└── ... TODO(you): other files or folders you need for assignment 2 ...
 ```
 
 1. Set up a conda environment and install packages. In particular, the
@@ -58,3 +61,13 @@ pip install -e ./cs336-basics/ -e ./cs336-data/'[test]'
 ``` sh
 conda activate cs336_data
 ```
+
+## ECE491B Assignment instructions
+
+Follow along the [CS336@Stanford handout](./cs336_spring2024_assignment4_data.pdf) with small deviations:
+1. What the code looks like: clone https://github.com/igormolybog/s2025-assignment2-data.git
+2. How to submit: You will submit the report on the assignment to [Assignment Submission Form](https://forms.gle/CSRweWjuBxvYbb9MA). The code does not have to be attached as long as you include links to the main GitHub branch where your code lives and links to all of the Colab notebooks if applicable.
+    - You don't need to submit to leaderboard.
+3. None of the data or tools are pre-downloaded or pre-installed for you. The handout describes the steps to get them (e.g. download specific WARC files or fastText library). You should follow them yourself.
+4. Problems listed in Section 4 are not required and can be skipped. However, they can be submitted for extra credit even after the deadline for Assignment 2 (and before the last day of the class) 
+    - You may leverage CPUs located on Koa cluster to solve the problems listed in Section 4
