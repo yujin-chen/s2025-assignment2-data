@@ -70,5 +70,6 @@ Follow along the [CS336@Stanford handout](./cs336_spring2024_assignment4_data.pd
 2. How to submit: You will submit the report on the assignment to [Assignment Submission Form](https://forms.gle/CSRweWjuBxvYbb9MA). The code does not have to be attached as long as you include links to the main GitHub branch where your code lives and links to all of the Colab notebooks if applicable.
     - You don't need to submit to leaderboard.
 3. None of the data or tools are pre-downloaded or pre-installed for you. The handout describes the steps to get them (e.g. download specific WARC files or fastText library). You should follow the steps yourself.
-4. Problems listed in Section 4 are not required and can be skipped. However, they can be submitted for extra credit even after the deadline for Assignment 2 (and before the last day of the class) 
+4. You can use warcio library (ArchiveIterator) to iterate through WARC.
+5. Problems listed in Section 4 are not required and can be skipped. However, they can be submitted for extra credit even after the deadline for Assignment 2 (and before the last day of the class) 
     - You may leverage CPUs located on Koa cluster to solve the problems listed in Section 4
