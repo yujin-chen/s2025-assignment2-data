@@ -71,5 +71,11 @@ Follow along the [CS336@Stanford handout](./cs336_spring2024_assignment4_data.pd
     - You don't need to submit to leaderboard.
 3. None of the data or tools are pre-downloaded or pre-installed for you. The handout describes the steps to get them (e.g. download specific WARC files or fastText library). You should follow the steps yourself.
 4. You can use warcio library (ArchiveIterator) to iterate through WARC.
-5. Problems listed in Section 4 are not required and can be skipped. However, they can be submitted for extra credit even after the deadline for Assignment 2 (and before the last day of the class) 
+5. For Section 2.7, quality_classifier (a), you can also download the Wikipidea URLs from [here](https://drive.google.com/file/d/1hjlgyWSuMRDf-G0AXgGBWZmvjPJdDWc7/view?usp=sharing). To train a classifier, you can prepare a training file (e.g., "quality_train.txt") where each line is formatted as follows:
+  ``` 
+    __label__high This document is from Wikipedia and is high-quality.
+    __label__low This document is from a random crawl and might be low-quality.
+  ```
+  - This file can be used as the input to the fasttext.train_supervised
+6. Problems listed in Section 4 are not required and can be skipped. However, they can be submitted for extra credit even after the deadline for Assignment 2 (and before the last day of the class) 
     - You may leverage CPUs located on Koa cluster to solve the problems listed in Section 4
