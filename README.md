@@ -77,5 +77,5 @@ Follow along the [CS336@Stanford handout](./cs336_spring2024_assignment4_data.pd
     __label__low This document is from a random crawl and might be low-quality.
   ```
   - This file can be used as the input to the fasttext.train_supervised
-6. Problems listed in Section 4 are not required and can be skipped. However, they can be submitted for extra credit even after the deadline for Assignment 2 (and before the last day of the class) 
+6. Problems listed in Section 4 are not required and can be skipped. This is primarily due to the absence of the filtered WARC data. However, the problems can be implemented using data from any other WARC file collections and submitted for extra credit even after the deadline for Assignment 2 (and before the last day of the class) 
     - You may leverage CPUs located on Koa cluster to solve the problems listed in Section 4
